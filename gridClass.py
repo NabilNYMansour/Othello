@@ -27,6 +27,10 @@ class Grid:
             return True
         
     def flip(self,xCor,yCor):
+        for i in range(-1,2):
+            for j in range(-1,2):
+                if self.grid[xCor + i][yCor + j] == 'W'
+                
 
 sup = Grid()
 sup.printGrid()
