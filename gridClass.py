@@ -1,4 +1,5 @@
 class Grid:
+    
     #This initializes the class and creates the grid. The grid is full of X's and we assign the middle pieces with W and B
     # X represents blank space
     def __init__(self):
@@ -29,10 +30,11 @@ class Grid:
     def flip(self,xCor,yCor):
         for i in range(-1,2):
             for j in range(-1,2):
-                if self.grid[xCor + i][yCor + j] == 'W'
+                if self.grid[xCor + i][yCor + j] == 'W':
+                                      
+        sup.printGrid()
                 
 
 sup = Grid()
 sup.printGrid()
-lol = input("enter")
 print (lol)
